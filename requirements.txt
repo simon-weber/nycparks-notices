@@ -46,6 +46,6 @@ sentry-sdk==0.7.2
 six==1.12.0               # via agate, csvkit, django-extensions, isodate, leather, pip-tools
 sqlalchemy==1.2.17        # via agate-sql
 unidecode==1.0.23         # via python-slugify
-urllib3==1.24.1           # via requests, sentry-sdk
+urllib3==1.24.2           # via requests, sentry-sdk
 whitenoise==4.1.2
 xlrd==1.2.0               # via agate-excel
