@@ -26,6 +26,9 @@ ALLOWED_HOSTS = []
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
+# ignore the admin app wanting messages (which are disabled since they're replaced for caching)
+SILENCED_SYSTEM_CHECKS = ["admin.E404", "admin.E406", "admin.E409"]
+
 # Application definition
 
 INSTALLED_APPS = [

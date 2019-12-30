@@ -21,7 +21,7 @@ django-db-geventpool==3.0.1
 django-extensions==2.1.5
 django-heroku==0.3.1
 django-ses==0.8.9
-django==2.1.5
+django==2.2.9
 et-xmlfile==1.0.1         # via openpyxl
 future==0.17.1            # via django-ses, parsedatetime
 gevent==1.4.0
@@ -35,7 +35,7 @@ lxml==4.3.1
 newrelic==4.12.0.113
 openpyxl==2.6.0           # via agate-excel
 parsedatetime==2.4        # via agate
-pip-tools==3.8.0
+pip-tools==4.3.0
 psycogreen==1.0.1         # via django-db-geventpool
 psycopg2==2.7.7           # via django-heroku
 python-slugify==2.0.1     # via agate
@@ -45,7 +45,8 @@ requests==2.21.0
 sentry-sdk==0.7.2
 six==1.12.0               # via agate, csvkit, django-extensions, isodate, leather, pip-tools
 sqlalchemy==1.2.17        # via agate-sql
+sqlparse==0.3.0           # via django
 unidecode==1.0.23         # via python-slugify
-urllib3==1.24.1           # via requests, sentry-sdk
+urllib3==1.24.2           # via requests, sentry-sdk
 whitenoise==4.1.2
 xlrd==1.2.0               # via agate-excel

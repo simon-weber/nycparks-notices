@@ -16,3 +16,6 @@ deploy:
 	-H "X-Auth-Key: ${CFLARE_KEY}" \
 	-H "Content-Type: application/json" \
 	--data '{"files":["https://parks.simon.codes/", "https://parks.simon.codes/statuses/"]}'
+
+pip-compile:
+	pip-compile -r requirements.in && pip-sync requirements.txt
