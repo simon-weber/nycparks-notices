@@ -1,0 +1,15 @@
+csvkit
+django
+django-bootstrap3
+django-db-geventpool
+django-extensions
+django-heroku
+django-ses
+gevent
+pip-tools
+gunicorn
+lxml
+newrelic
+requests
+sentry-sdk
+whitenoise

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}
+{% block content %}
+Enter your email and choose one or more locations to receive notifications for.
+<br/>
+On a desktop, hold control or command to select multiple locations.
+<br/>
+<br/>
+<form action="{{ request.path }}" method="post">
+    {% csrf_token %}
+    {% bootstrap_form subscribe_form %}
+
+    {% buttons %}
+    <button type="submit" class="btn btn-primary" name="subscribe" value="subval">
+       {{can_unsubscribe | yesno:"Update,Subscribe"}}
+    </button>
+    {% if can_unsubscribe %}
+    <button type="submit" class="btn btn-primary" name="unsubscribe" value="unsubval">
+        Unsubscribe
+    </button>
+    {% endif %}
+    {% endbuttons %}
+
+</form>
+{% endblock content %}
