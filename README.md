@@ -1,5 +1,8 @@
-# nycparks-notices
-Email alerts for NYC Parks &amp; Recreation notices, such as facility closures.
+# NYC Park Alerts
+
+You can sign up for free at https://parks.simon.codes/ to receive alerts about locations you frequent.
+
+The rest of this page is intended for developers.
 
 ## dev 
 
