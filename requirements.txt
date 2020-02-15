@@ -21,7 +21,7 @@ django-db-geventpool==3.0.1
 django-extensions==2.1.5
 django-heroku==0.3.1
 django-ses==0.8.9
-django==2.2.9
+django==2.2.10
 et-xmlfile==1.0.1         # via openpyxl
 future==0.17.1            # via django-ses, parsedatetime
 gevent==1.4.0

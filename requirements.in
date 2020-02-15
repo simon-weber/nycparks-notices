@@ -1,5 +1,5 @@
 csvkit
-django
+django<2.3
 django-bootstrap3
 django-db-geventpool
 django-extensions
