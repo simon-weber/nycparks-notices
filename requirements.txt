@@ -13,40 +13,45 @@ boto==2.49.0              # via django-ses
 certifi==2018.11.29       # via requests, sentry-sdk
 chardet==3.0.4            # via requests
 click==7.0                # via pip-tools
-csvkit==1.0.3
+csvkit==1.0.3             # via -r requirements.in
 dbfread==2.0.7            # via agate-dbf
 dj-database-url==0.5.0    # via django-heroku
-django-bootstrap3==11.0.0
-django-db-geventpool==3.0.1
-django-extensions==2.1.5
-django-heroku==0.3.1
-django-ses==0.8.9
-django==2.2.10
+django-bootstrap3==11.0.0  # via -r requirements.in
+django-db-geventpool==3.0.1  # via -r requirements.in
+django-extensions==2.1.5  # via -r requirements.in
+django-heroku==0.3.1      # via -r requirements.in
+django-ses==0.8.9         # via -r requirements.in
+django==2.2.10            # via -r requirements.in, django-db-geventpool, django-heroku
 et-xmlfile==1.0.1         # via openpyxl
 future==0.17.1            # via django-ses, parsedatetime
-gevent==1.4.0
+gevent==1.4.0             # via -r requirements.in
 greenlet==0.4.15          # via gevent
-gunicorn==19.9.0
+gunicorn==19.9.0          # via -r requirements.in
 idna==2.8                 # via requests
 isodate==0.6.0            # via agate
 jdcal==1.4                # via openpyxl
 leather==0.3.3            # via agate
-lxml==4.3.1
-newrelic==4.12.0.113
+lxml==4.6.2               # via -r requirements.in
+newrelic==4.12.0.113      # via -r requirements.in
 openpyxl==2.6.0           # via agate-excel
 parsedatetime==2.4        # via agate
-pip-tools==4.3.0
+pip-tools==5.4.0          # via -r requirements.in
+piprot==0.9.11            # via -r requirements.in
 psycogreen==1.0.1         # via django-db-geventpool
-psycopg2==2.7.7           # via django-heroku
+psycopg2==2.8.6           # via django-heroku
 python-slugify==2.0.1     # via agate
 pytimeparse==1.1.8        # via agate
 pytz==2018.9              # via babel, django, django-ses
-requests==2.21.0
-sentry-sdk==0.7.2
-six==1.12.0               # via agate, csvkit, django-extensions, isodate, leather, pip-tools
+requests-futures==1.0.0   # via piprot
+requests==2.21.0          # via -r requirements.in, piprot, requests-futures
+sentry-sdk==0.7.2         # via -r requirements.in
+six==1.12.0               # via agate, csvkit, django-extensions, isodate, leather, pip-tools, piprot
 sqlalchemy==1.2.17        # via agate-sql
 sqlparse==0.3.0           # via django
 unidecode==1.0.23         # via python-slugify
 urllib3==1.24.2           # via requests, sentry-sdk
-whitenoise==4.1.2
+whitenoise==4.1.2         # via -r requirements.in, django-heroku
 xlrd==1.2.0               # via agate-excel
+
+# The following packages are considered to be unsafe in a requirements file:
+# pip

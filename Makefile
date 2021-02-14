@@ -19,3 +19,6 @@ deploy:
 
 pip-compile:
 	pip-compile -r requirements.in && pip-sync requirements.txt
+
+check-deps:
+	bash -c 'grep -f requirements.in <(piprot --outdated requirements.txt)'
