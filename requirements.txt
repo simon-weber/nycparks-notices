@@ -31,7 +31,7 @@ idna==2.8                 # via requests
 isodate==0.6.0            # via agate
 jdcal==1.4                # via openpyxl
 leather==0.3.3            # via agate
-lxml==4.6.2               # via -r requirements.in
+lxml==4.6.3               # via -r requirements.in
 newrelic==4.12.0.113      # via -r requirements.in
 openpyxl==2.6.0           # via agate-excel
 parsedatetime==2.4        # via agate
