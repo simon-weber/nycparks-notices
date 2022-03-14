@@ -173,6 +173,7 @@ sentry_sdk.init(
 
 django_heroku.settings(locals(), logging=False)
 
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 DATABASES['default']['ENGINE'] = 'django_db_geventpool.backends.postgresql_psycopg2'  # noqa: F821
 DATABASES['default']['CONN_MAX_AGE'] = 0  # noqa: F821
 DATABASES['default']['OPTIONS']['MAX_CONNS'] = 5  # noqa: F821

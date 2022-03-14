@@ -18,12 +18,12 @@ click==7.0                # via pip-tools
 csvkit==1.0.3             # via -r requirements.in
 dbfread==2.0.7            # via agate-dbf
 dj-database-url==0.5.0    # via django-heroku
-django-bootstrap3==11.0.0  # via -r requirements.in
-django-db-geventpool==3.0.1  # via -r requirements.in
-django-extensions==2.1.5  # via -r requirements.in
+django-bootstrap3==21.2   # via -r requirements.in
+django-db-geventpool==4.0.0  # via -r requirements.in
+django-extensions==3.1.4  # via -r requirements.in
 django-heroku==0.3.1      # via -r requirements.in
 django-ses==2.0.0         # via -r requirements.in
-django==3.0.14            # via -r requirements.in, django-db-geventpool, django-heroku, django-ses
+django==3.2.12            # via -r requirements.in, django-bootstrap3, django-db-geventpool, django-extensions, django-heroku, django-ses
 et-xmlfile==1.0.1         # via openpyxl
 future==0.17.1            # via django-ses, parsedatetime
 gevent==1.4.0             # via -r requirements.in
@@ -50,12 +50,12 @@ requests-futures==1.0.0   # via piprot
 requests==2.25.1          # via -r requirements.in, piprot, requests-futures
 s3transfer==0.4.2         # via boto3
 sentry-sdk==0.7.2         # via -r requirements.in
-six==1.12.0               # via agate, csvkit, django-extensions, isodate, leather, pip-tools, piprot, python-dateutil
+six==1.12.0               # via agate, csvkit, isodate, leather, pip-tools, piprot, python-dateutil
 sqlalchemy==1.2.17        # via agate-sql
 sqlparse==0.3.0           # via django
 unidecode==1.0.23         # via python-slugify
 urllib3==1.26.5           # via botocore, requests, sentry-sdk
-whitenoise==4.1.2         # via -r requirements.in, django-heroku
+whitenoise==6.0.0         # via -r requirements.in, django-heroku
 xlrd==1.2.0               # via agate-excel
 
 # The following packages are considered to be unsafe in a requirements file:

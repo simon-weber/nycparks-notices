@@ -4,7 +4,7 @@ django-db-geventpool
 django-extensions
 django-heroku
 django-ses
-django==3.0.14
+django
 gevent
 gunicorn
 lxml
