@@ -8,6 +8,7 @@ agate-dbf==0.2.0          # via csvkit
 agate-excel==0.2.2        # via csvkit
 agate-sql==0.5.3          # via csvkit
 agate==1.6.1              # via agate-dbf, agate-excel, agate-sql, csvkit
+asgiref==3.5.0            # via django
 babel==2.6.0              # via agate
 boto3==1.17.94            # via django-ses
 botocore==1.20.94         # via boto3, s3transfer
@@ -22,7 +23,7 @@ django-db-geventpool==3.0.1  # via -r requirements.in
 django-extensions==2.1.5  # via -r requirements.in
 django-heroku==0.3.1      # via -r requirements.in
 django-ses==2.0.0         # via -r requirements.in
-django==2.2.24            # via -r requirements.in, django-db-geventpool, django-heroku, django-ses
+django==3.0.14            # via -r requirements.in, django-db-geventpool, django-heroku, django-ses
 et-xmlfile==1.0.1         # via openpyxl
 future==0.17.1            # via django-ses, parsedatetime
 gevent==1.4.0             # via -r requirements.in
